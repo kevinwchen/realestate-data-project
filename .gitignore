@@ -1,3 +1,4 @@
 .env
 api_variables.py
 *.json
+__pycache__
