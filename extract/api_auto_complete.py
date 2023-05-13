@@ -1,3 +1,4 @@
+import os
 import requests
 import json
 from api_variables import api_host, headers
@@ -12,7 +13,7 @@ response = requests.get(url, headers=headers, params=queryParams)
 
 if response.status_code == 200:
     print(response.json())
-    with open("auto_complete_out.json", "w") as output:
+    with open(os.path.join(os.path.dirname(__file__), "outputs", "auto_complete.json"), "w") as output:
         json.dump(response.json(), output)
 else:
     print(f"Error: {response.status_code}")
