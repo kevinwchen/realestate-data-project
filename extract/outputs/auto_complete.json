@@ -1,0 +1,140 @@
+{
+    "_embedded": {
+        "suggestions": [
+            {
+                "display": {
+                    "subtext": "Suburb",
+                    "text": "Chatswood, NSW 2067"
+                },
+                "id": "98f793f1-b749-4aed-a64f-c1f065770a63-2067",
+                "source": {
+                    "atlasId": "98f793f1-b749-4aed-a64f-c1f065770a63",
+                    "name": "Chatswood",
+                    "postcode": "2067",
+                    "state": "NSW"
+                },
+                "type": "suburb"
+            },
+            {
+                "display": {
+                    "subtext": "Suburb",
+                    "text": "Chatswood West, NSW 2067"
+                },
+                "id": "880d1109-f360-482b-9f7a-929065ebaeb8-2067",
+                "source": {
+                    "atlasId": "880d1109-f360-482b-9f7a-929065ebaeb8",
+                    "name": "Chatswood West",
+                    "postcode": "2067",
+                    "state": "NSW"
+                },
+                "type": "suburb"
+            },
+            {
+                "display": {
+                    "subtext": "Suburb",
+                    "text": "Chatswood Hills, QLD 4127"
+                },
+                "id": "d8044604-aeb0-4ff4-8bcf-c4c5d80aa977-4127",
+                "source": {
+                    "atlasId": "d8044604-aeb0-4ff4-8bcf-c4c5d80aa977",
+                    "name": "Chatswood Hills",
+                    "postcode": "4127",
+                    "state": "QLD"
+                },
+                "type": "suburb"
+            },
+            {
+                "display": {
+                    "subtext": "For sale",
+                    "text": "14 Chatswood Avenue, Chatswood, NSW 2067"
+                },
+                "id": "141819292",
+                "source": {
+                    "channel": "buy",
+                    "image": "https://i2.au.reastatic.net/{size}/c5cc16ee86678ac917934d710045d7a00ac609b0f54aef47773899625fa5aed3/image.jpg",
+                    "url": "https://www.realestate.com.au/141819292"
+                },
+                "type": "listing"
+            },
+            {
+                "display": {
+                    "subtext": "For sale",
+                    "text": "24 Chatswood Close, Glengarry, Vic 3854"
+                },
+                "id": "203579300",
+                "source": {
+                    "channel": "buy",
+                    "image": "https://i2.au.reastatic.net/{size}/d1a1973797f280cd04431fc84259380abd5c73847eac831ea11faf8dfc42f3b1/image.jpg",
+                    "url": "https://www.realestate.com.au/203579300"
+                },
+                "type": "listing"
+            },
+            {
+                "display": {
+                    "subtext": "For sale",
+                    "text": "9 Chatswood Court, Robina, Qld 4226"
+                },
+                "id": "141691876",
+                "source": {
+                    "channel": "buy",
+                    "image": "https://i2.au.reastatic.net/{size}/92df80ba60258f9f8a2f58a7998213f43028e730ef6d959aa1b4e5f933b83b45/image.jpg",
+                    "url": "https://www.realestate.com.au/141691876"
+                },
+                "type": "listing"
+            },
+            {
+                "display": {
+                    "subtext": "For rent",
+                    "text": "9 Chatswood Court, Robina, Qld 4226"
+                },
+                "id": "436799916",
+                "source": {
+                    "channel": "rent",
+                    "image": "https://i2.au.reastatic.net/{size}/92df80ba60258f9f8a2f58a7998213f43028e730ef6d959aa1b4e5f933b83b45/image.jpg",
+                    "url": "https://www.realestate.com.au/436799916"
+                },
+                "type": "listing"
+            },
+            {
+                "display": {
+                    "subtext": "For sale",
+                    "text": "53 Chatswood Drive, Anglesea, Vic 3230"
+                },
+                "id": "141633504",
+                "source": {
+                    "channel": "buy",
+                    "image": "https://i2.au.reastatic.net/{size}/35c2790be2e770f4e8f9d791faadc99f28942a27fdb6b2b9ab4d093a61dd79f1/image.jpg",
+                    "url": "https://www.realestate.com.au/141633504"
+                },
+                "type": "listing"
+            },
+            {
+                "display": {
+                    "subtext": "For sale",
+                    "text": "51 Chatswood Drive, Narre Warren South, Vic 3805"
+                },
+                "id": "141926536",
+                "source": {
+                    "channel": "buy",
+                    "image": "https://i2.au.reastatic.net/{size}/21c5dc4defb584b84e51b93fdf944c899da54d06f706f7047d476ed8a6a2e5b9/image.jpg",
+                    "url": "https://www.realestate.com.au/141926536"
+                },
+                "type": "listing"
+            },
+            {
+                "display": {
+                    "subtext": "For sale",
+                    "text": "20 Chatswood Drive, Narre Warren South, Vic 3805"
+                },
+                "id": "141967928",
+                "source": {
+                    "channel": "buy",
+                    "image": "https://i2.au.reastatic.net/{size}/0521592ece8fb066e9f21694521f9456212a2850bee38ebb3670caabf53b7bfe/image.jpg",
+                    "url": "https://www.realestate.com.au/141967928"
+                },
+                "type": "listing"
+            }
+        ]
+    },
+    "count": "10"
+}
