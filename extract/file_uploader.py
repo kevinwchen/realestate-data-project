@@ -23,7 +23,7 @@ def main():
         print(f"Bucket '{aws_bucket_name}' already exists")
 
     # Upload data
-    client.fput_object(aws_bucket_name, "properties.json", os.path.join(os.path.dirname(__file__), "outputs", "properties.json"))
+    client.fput_object(aws_bucket_name, "properties_raw.json", os.path.join(os.path.dirname(__file__), "outputs", "properties_raw.json"))
     print(f"Data uploaded to bucket {aws_bucket_name}")
 
 if __name__ == "__main__":

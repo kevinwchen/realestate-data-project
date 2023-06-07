@@ -35,7 +35,7 @@ def main():
         totalPages = int(totalResults/pageSize)
         if totalResults % pageSize != 0: totalPages += 1
 
-        with open(os.path.join(os.path.dirname(__file__), "outputs", "properties.json"), "w") as output:
+        with open(os.path.join(os.path.dirname(__file__), "outputs", "properties_raw.json"), "w") as output:
             # Get data
             allResultsData = []
             for page in range(1, totalPages + 1):
@@ -65,7 +65,7 @@ def main():
                             propertyData = tieredResults[i]['results'][j]
                             del propertyData["address"]["postCode"] # remove duplicate key
                             allResultsData.append(tieredResults[i]['results'][j])
-                        output.write(json.dumps(allResultsData)) # Write to file for every page processed
+                        output.write(json.dumps(allResultsData,indent=4)) # Write to file for every page processed
                 else:
                     print(f"Error: {test_response.status_code}")
 
